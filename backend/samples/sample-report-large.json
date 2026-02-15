@@ -1,0 +1,635 @@
+{
+  "coverImage": "https://picsum.photos/800/400",
+  "coverText": "This comprehensive report contains executive summaries, regional performance data, financial metrics, operational KPIs, and strategic recommendations across multiple business units.",
+  "sections": [
+    {
+      "title": "Executive Summary",
+      "subtitle": "Fiscal Year Overview",
+      "blocks": [
+        { "type": "text", "text": "This report presents a full analysis of business performance across all regions and product lines. Key highlights include sustained growth in digital channels, expansion in emerging markets, and continued investment in R&D and sustainability initiatives." },
+        { "type": "text", "text": "Revenue increased year-over-year with strong contributions from the Americas and EMEA. Operational efficiency improvements have reduced costs while maintaining quality standards. The following sections provide detailed breakdowns by segment, geography, and function." },
+        {
+          "type": "table",
+          "headers": ["Metric", "Q1", "Q2", "Q3", "Q4", "Full Year"],
+          "rows": [
+            ["Revenue (M)", "245", "268", "291", "312", "1116"],
+            ["Gross Margin %", "42.1", "43.0", "43.5", "44.2", "43.2"],
+            ["OpEx (M)", "98", "102", "105", "108", "413"],
+            ["Net Income (M)", "52", "61", "68", "78", "259"],
+            ["Headcount", "4250", "4320", "4410", "4480", "4480"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Detailed Line Items",
+      "subtitle": "Multi-page table (breaks across pages with repeating header)",
+      "blocks": [
+        {
+          "type": "table",
+          "allowPageBreak": true,
+          "headers": ["#", "Description", "Category", "Amount", "Date", "Status"],
+          "rows": [
+            ["1", "License fee Q1", "Revenue", "45,200", "2024-01-15", "Paid"],
+            ["2", "Support contract", "Revenue", "12,000", "2024-01-20", "Paid"],
+            ["3", "Consulting project A", "Revenue", "28,500", "2024-01-22", "Paid"],
+            ["4", "Hardware refresh", "CapEx", "18,200", "2024-02-01", "Paid"],
+            ["5", "Cloud services", "OpEx", "4,800", "2024-02-05", "Paid"],
+            ["6", "Training program", "OpEx", "3,200", "2024-02-10", "Paid"],
+            ["7", "License fee Q2", "Revenue", "48,100", "2024-04-15", "Paid"],
+            ["8", "Marketing campaign", "OpEx", "15,000", "2024-04-20", "Paid"],
+            ["9", "Legal fees", "OpEx", "6,500", "2024-04-25", "Paid"],
+            ["10", "Consulting project B", "Revenue", "32,000", "2024-05-01", "Paid"],
+            ["11", "Office supplies", "OpEx", "1,200", "2024-05-05", "Paid"],
+            ["12", "Travel & expenses", "OpEx", "8,400", "2024-05-12", "Paid"],
+            ["13", "License fee Q3", "Revenue", "51,000", "2024-07-15", "Paid"],
+            ["14", "Recruitment fee", "OpEx", "9,000", "2024-07-20", "Paid"],
+            ["15", "Software subscription", "OpEx", "2,400", "2024-07-25", "Paid"],
+            ["16", "Consulting project C", "Revenue", "35,500", "2024-08-01", "Paid"],
+            ["17", "Events sponsorship", "OpEx", "12,000", "2024-08-10", "Paid"],
+            ["18", "Insurance premium", "OpEx", "7,200", "2024-08-15", "Paid"],
+            ["19", "License fee Q4", "Revenue", "54,200", "2024-10-15", "Paid"],
+            ["20", "R&D equipment", "CapEx", "22,000", "2024-10-20", "Paid"],
+            ["21", "Training certification", "OpEx", "2,800", "2024-10-25", "Paid"],
+            ["22", "Consulting project D", "Revenue", "38,000", "2024-11-01", "Paid"],
+            ["23", "Year-end bonus accrual", "OpEx", "45,000", "2024-11-15", "Accrued"],
+            ["24", "Audit fees", "OpEx", "18,500", "2024-11-20", "Pending"],
+            ["25", "License fee renewal", "Revenue", "52,000", "2024-12-01", "Paid"],
+            ["26", "Cloud migration", "CapEx", "35,000", "2024-12-05", "Paid"],
+            ["27", "Support renewal batch 1", "Revenue", "24,000", "2024-12-10", "Paid"],
+            ["28", "Support renewal batch 2", "Revenue", "19,200", "2024-12-12", "Paid"],
+            ["29", "Consulting project E", "Revenue", "42,000", "2024-12-15", "Paid"],
+            ["30", "Office lease", "OpEx", "28,000", "2024-12-20", "Paid"],
+            ["31", "Utilities", "OpEx", "3,600", "2024-12-22", "Paid"],
+            ["32", "Telecom", "OpEx", "2,200", "2024-12-28", "Paid"],
+            ["33", "Misc expense 1", "OpEx", "1,100", "2024-01-08", "Paid"],
+            ["34", "Misc expense 2", "OpEx", "950", "2024-02-14", "Paid"],
+            ["35", "Refund processing", "Revenue", "-2,400", "2024-03-01", "Paid"],
+            ["36", "Partner commission", "OpEx", "5,600", "2024-03-15", "Paid"],
+            ["37", "License fee add-on", "Revenue", "8,200", "2024-04-08", "Paid"],
+            ["38", "Maintenance contract", "Revenue", "6,500", "2024-05-18", "Paid"],
+            ["39", "Penalty waiver", "Revenue", "-1,200", "2024-06-01", "Paid"],
+            ["40", "Settlement income", "Revenue", "15,000", "2024-06-20", "Paid"],
+            ["41", "Bad debt write-off", "OpEx", "4,200", "2024-07-10", "Paid"],
+            ["42", "Currency gain", "Revenue", "2,100", "2024-08-22", "Paid"],
+            ["43", "Consulting project F", "Revenue", "29,000", "2024-09-05", "Paid"],
+            ["44", "Consulting project G", "Revenue", "31,500", "2024-09-18", "Paid"],
+            ["45", "License fee top-up", "Revenue", "12,400", "2024-10-01", "Paid"],
+            ["46", "Freight & shipping", "OpEx", "3,800", "2024-10-12", "Paid"],
+            ["47", "Subcontractor", "OpEx", "18,000", "2024-11-08", "Paid"],
+            ["48", "License fee Q1 next", "Revenue", "56,000", "2025-01-15", "Pending"],
+            ["49", "Support contract renewal", "Revenue", "13,200", "2025-01-20", "Pending"],
+            ["50", "Consulting project H", "Revenue", "40,000", "2025-02-01", "Pipeline"],
+            ["51", "Hardware upgrade", "CapEx", "14,000", "2025-02-15", "Planned"],
+            ["52", "Cloud expansion", "OpEx", "6,200", "2025-03-01", "Planned"],
+            ["53", "Training batch 2", "OpEx", "4,500", "2025-03-10", "Planned"],
+            ["54", "Marketing Q1", "OpEx", "16,000", "2025-03-20", "Planned"],
+            ["55", "Legal retainer", "OpEx", "5,000", "2025-04-01", "Planned"],
+            ["56", "Consulting project I", "Revenue", "44,000", "2025-04-15", "Pipeline"],
+            ["57", "License fee Q2 next", "Revenue", "58,500", "2025-04-20", "Pipeline"],
+            ["58", "Office expansion", "CapEx", "45,000", "2025-05-01", "Planned"],
+            ["59", "Recruitment batch", "OpEx", "11,000", "2025-05-15", "Planned"],
+            ["60", "Events Q2", "OpEx", "14,000", "2025-06-01", "Planned"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Regional Performance",
+      "subtitle": "Americas",
+      "blocks": [
+        { "type": "text", "text": "The Americas region delivered strong results, driven by growth in North America and recovery in Latin American markets. Customer acquisition costs improved while retention rates remained above target." },
+        {
+          "type": "table",
+          "headers": ["Country", "Revenue", "Growth %", "Customers", "NPS"],
+          "rows": [
+            ["United States", "612M", "12.4", "12400", "72"],
+            ["Canada", "89M", "8.2", "2100", "68"],
+            ["Mexico", "45M", "15.1", "3200", "65"],
+            ["Brazil", "38M", "22.0", "2800", "61"],
+            ["Argentina", "12M", "5.3", "890", "58"],
+            ["Chile", "18M", "11.2", "1100", "64"],
+            ["Colombia", "14M", "18.5", "950", "62"]
+          ]
+        },
+        { "type": "image", "src": "https://picsum.photos/600/300", "alt": "Americas overview", "caption": "Regional footprint and key markets." }
+      ]
+    },
+    {
+      "title": "Regional Performance",
+      "subtitle": "EMEA",
+      "blocks": [
+        { "type": "text", "text": "EMEA performance was solid with particular strength in the UK, Germany, and France. Investments in localisation and compliance have paid off. Middle East and Africa showed double-digit growth from a smaller base." },
+        {
+          "type": "table",
+          "headers": ["Country", "Revenue", "Growth %", "Customers", "NPS"],
+          "rows": [
+            ["United Kingdom", "156M", "9.8", "4200", "70"],
+            ["Germany", "134M", "7.5", "3800", "69"],
+            ["France", "98M", "6.2", "2900", "67"],
+            ["Spain", "42M", "11.0", "1500", "66"],
+            ["Italy", "38M", "4.1", "1200", "63"],
+            ["Netherlands", "28M", "14.2", "980", "71"],
+            ["Sweden", "22M", "8.5", "720", "68"],
+            ["UAE", "18M", "25.0", "650", "64"],
+            ["South Africa", "14M", "19.2", "520", "60"]
+          ]
+        },
+        { "type": "graph", "id": "emea-trend", "title": "EMEA quarterly revenue trend" }
+      ]
+    },
+    {
+      "title": "Regional Performance",
+      "subtitle": "Asia Pacific",
+      "blocks": [
+        { "type": "text", "text": "Asia Pacific remains the fastest-growing region. Japan and Australia are mature high-value markets; India and Southeast Asia are scaling rapidly. We continue to invest in local teams and partnerships." },
+        {
+          "type": "table",
+          "headers": ["Country", "Revenue", "Growth %", "Customers", "NPS"],
+          "rows": [
+            ["Japan", "98M", "5.2", "3100", "66"],
+            ["Australia", "72M", "10.1", "2400", "69"],
+            ["India", "54M", "28.4", "4100", "62"],
+            ["South Korea", "38M", "7.8", "1200", "65"],
+            ["Singapore", "28M", "12.0", "890", "72"],
+            ["Indonesia", "22M", "32.0", "1800", "58"],
+            ["Thailand", "16M", "18.5", "720", "61"],
+            ["Vietnam", "12M", "26.0", "650", "59"],
+            ["Philippines", "10M", "22.0", "520", "57"]
+          ]
+        },
+        { "type": "image", "src": "https://picsum.photos/600/280", "alt": "APAC", "caption": "Asia Pacific operations." }
+      ]
+    },
+    {
+      "title": "Product Line Revenue",
+      "subtitle": "By segment",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Product", "Q1", "Q2", "Q3", "Q4", "Total", "Share %"],
+          "rows": [
+            ["Product A", "89", "94", "98", "102", "383", "34.3"],
+            ["Product B", "72", "78", "84", "88", "322", "28.9"],
+            ["Product C", "45", "48", "52", "56", "201", "18.0"],
+            ["Product D", "28", "32", "38", "42", "140", "12.5"],
+            ["Product E", "11", "16", "19", "24", "70", "6.3"]
+          ]
+        },
+        { "type": "graph", "id": "product-mix", "title": "Product mix and growth" }
+      ]
+    },
+    {
+      "title": "Sales Pipeline",
+      "subtitle": "Quarterly snapshot",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Stage", "Count", "Value (M)", "Win Rate", "Avg Cycle (days)"],
+          "rows": [
+            ["Lead", "4200", "840", "8%", "—"],
+            ["Qualified", "1850", "520", "22%", "45"],
+            ["Proposal", "620", "248", "38%", "28"],
+            ["Negotiation", "280", "168", "55%", "18"],
+            ["Closed Won", "—", "112", "—", "—"],
+            ["Closed Lost", "—", "—", "—", "—"]
+          ]
+        },
+        { "type": "text", "text": "Pipeline health improved in the second half with higher conversion from Qualified to Proposal. Average deal size increased 6% year-over-year. Focus areas for next quarter: shortening negotiation cycle and improving win rate in enterprise deals." }
+      ]
+    },
+    {
+      "title": "Customer Metrics",
+      "subtitle": "Cohort and retention",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Cohort", "Month 0", "Month 3", "Month 6", "Month 12", "LTV"],
+          "rows": [
+            ["2024-01", "100%", "88%", "82%", "76%", "2.4"],
+            ["2024-02", "100%", "87%", "81%", "—", "—"],
+            ["2024-03", "100%", "89%", "83%", "—", "—"],
+            ["2024-04", "100%", "86%", "80%", "—", "—"],
+            ["2024-05", "100%", "88%", "—", "—", "—"],
+            ["2024-06", "100%", "87%", "—", "—", "—"]
+          ]
+        },
+        { "type": "image", "src": "https://picsum.photos/550/250", "alt": "Retention", "caption": "Retention curve by cohort." }
+      ]
+    },
+    {
+      "title": "Marketing Spend",
+      "subtitle": "By channel",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Channel", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "H1 Total"],
+          "rows": [
+            ["Paid Search", "1.2", "1.3", "1.4", "1.5", "1.5", "1.6", "8.5"],
+            ["Paid Social", "0.9", "1.0", "1.1", "1.1", "1.2", "1.2", "6.5"],
+            ["Display", "0.5", "0.5", "0.6", "0.6", "0.6", "0.6", "3.4"],
+            ["Content", "0.4", "0.4", "0.4", "0.5", "0.5", "0.5", "2.7"],
+            ["Events", "0.3", "0.2", "0.4", "0.3", "0.3", "0.2", "1.7"],
+            ["Partnerships", "0.2", "0.2", "0.2", "0.3", "0.3", "0.3", "1.5"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Operations",
+      "subtitle": "Supply chain and logistics",
+      "blocks": [
+        { "type": "text", "text": "Supply chain resilience remained a priority. We diversified suppliers in key categories and improved lead times by 12% through better forecasting and regional stocking. Sustainability metrics are tracked and reported quarterly." },
+        {
+          "type": "table",
+          "headers": ["Metric", "Target", "Actual", "Status"],
+          "rows": [
+            ["On-time delivery %", "98%", "97.2%", "Amber"],
+            ["Inventory turnover", "6x", "5.8x", "Amber"],
+            ["Carbon (tCO2e)", "-5%", "-6.1%", "Green"],
+            ["Supplier diversity %", "25%", "26%", "Green"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "R&D Investment",
+      "subtitle": "Projects and headcount",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Area", "Budget (M)", "Headcount", "Key Projects"],
+          "rows": [
+            ["Platform", "18", "95", "API v3, Scalability"],
+            ["Product", "22", "120", "New modules, UX"],
+            ["Data & AI", "12", "45", "ML models, Analytics"],
+            ["Security", "8", "35", "Compliance, Zero Trust"]
+          ]
+        },
+        { "type": "graph", "id": "rd-spend", "title": "R&D spend trend" }
+      ]
+    },
+    {
+      "title": "HR and Headcount",
+      "subtitle": "By department",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Department", "Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+          "rows": [
+            ["Engineering", "420", "428", "435", "442", "448", "455"],
+            ["Product", "180", "182", "185", "188", "190", "192"],
+            ["Sales", "520", "525", "530", "535", "540", "545"],
+            ["Marketing", "95", "96", "98", "100", "102", "104"],
+            ["Customer Success", "140", "142", "145", "148", "150", "152"],
+            ["Operations", "88", "90", "92", "94", "95", "96"],
+            ["G&A", "120", "121", "122", "123", "124", "125"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Financial Summary",
+      "subtitle": "P&L highlights",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Line Item", "FY-2023", "FY-2024", "Change %"],
+          "rows": [
+            ["Revenue", "982", "1116", "13.6"],
+            ["Cost of Revenue", "568", "633", "11.4"],
+            ["Gross Profit", "414", "483", "16.7"],
+            ["R&D", "68", "78", "14.7"],
+            ["S&M", "185", "210", "13.5"],
+            ["G&A", "72", "78", "8.3"],
+            ["Operating Income", "89", "117", "31.5"],
+            ["Net Income", "198", "259", "30.8"]
+          ]
+        },
+        { "type": "image", "src": "https://picsum.photos/580/260", "alt": "Financials", "caption": "Revenue and margin trend." }
+      ]
+    },
+    {
+      "title": "Appendix A – Detailed Regional Data",
+      "subtitle": "Americas by state/region",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Region", "Revenue", "Customers", "Growth"],
+          "rows": [
+            ["California", "142", "3200", "14%"],
+            ["Texas", "98", "2100", "11%"],
+            ["New York", "88", "1900", "9%"],
+            ["Florida", "62", "1500", "16%"],
+            ["Illinois", "38", "920", "7%"],
+            ["Washington", "35", "880", "12%"],
+            ["Georgia", "28", "720", "10%"],
+            ["Ontario", "42", "1100", "8%"],
+            ["Quebec", "28", "680", "6%"],
+            ["Mexico City", "22", "950", "18%"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appendix B – Product Deep Dive",
+      "subtitle": "Product A metrics",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Metric", "Q1", "Q2", "Q3", "Q4"],
+          "rows": [
+            ["Active subscriptions", "12400", "13100", "13800", "14500"],
+            ["ARR (M)", "89", "94", "98", "102"],
+            ["Churn %", "2.1", "1.9", "1.8", "1.7"],
+            ["NPS", "70", "71", "72", "72"]
+          ]
+        },
+        { "type": "text", "text": "Product A continues to be the largest revenue contributor. Feature releases in Q3 and Q4 drove higher adoption in enterprise accounts. We expect similar growth trajectory in the next fiscal year." }
+      ]
+    },
+    {
+      "title": "Appendix C – Competitor Benchmark",
+      "subtitle": "Market share estimates",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Vendor", "Share %", "Growth", "Notes"],
+          "rows": [
+            ["Us", "22", "13%", "—"],
+            ["Competitor 1", "28", "5%", "Legacy base"],
+            ["Competitor 2", "18", "9%", "Strong in SMB"],
+            ["Competitor 3", "12", "18%", "Fast growth"],
+            ["Others", "20", "4%", "Fragmented"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appendix D – Survey Results",
+      "subtitle": "Customer satisfaction",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Question", "Score (1-10)", "Response count"],
+          "rows": [
+            ["Overall satisfaction", "8.2", "2400"],
+            ["Ease of use", "8.0", "2380"],
+            ["Support quality", "7.8", "2350"],
+            ["Value for money", "7.6", "2320"],
+            ["Would recommend", "8.4", "2390"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appendix E – Risk Register",
+      "subtitle": "Top risks and mitigations",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Risk", "Likelihood", "Impact", "Mitigation"],
+          "rows": [
+            ["Supply chain disruption", "Medium", "High", "Dual sourcing"],
+            ["Key person dependency", "Low", "Medium", "Documentation, backup"],
+            ["Regulatory change", "Medium", "Medium", "Legal monitoring"],
+            ["Cyber incident", "Low", "High", "Security program"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appendix F – Glossary",
+      "subtitle": "Terms and definitions",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Term", "Definition"],
+          "rows": [
+            ["ARR", "Annual Recurring Revenue"],
+            ["NPS", "Net Promoter Score"],
+            ["LTV", "Lifetime Value"],
+            ["CAC", "Customer Acquisition Cost"],
+            ["OpEx", "Operating Expenditure"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 18 – Extra Tables",
+      "subtitle": "Sample data",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["ID", "Name", "Value", "Category"],
+          "rows": [
+            ["001", "Item Alpha", "100", "A"],
+            ["002", "Item Beta", "200", "B"],
+            ["003", "Item Gamma", "150", "A"],
+            ["004", "Item Delta", "300", "C"],
+            ["005", "Item Epsilon", "180", "B"],
+            ["006", "Item Zeta", "220", "A"],
+            ["007", "Item Eta", "190", "C"],
+            ["008", "Item Theta", "260", "B"],
+            ["009", "Item Iota", "170", "A"],
+            ["010", "Item Kappa", "240", "C"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 19 – More Content",
+      "subtitle": "Narrative",
+      "blocks": [
+        { "type": "text", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
+        { "type": "text", "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
+        { "type": "image", "src": "https://picsum.photos/500/220", "alt": "Placeholder", "caption": "Additional visual." }
+      ]
+    },
+    {
+      "title": "Section 20 – Large Data Table",
+      "subtitle": "Extended dataset",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Month", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M10"],
+          "rows": [
+            ["Jan", "10", "12", "14", "11", "13", "15", "12", "14", "16", "13"],
+            ["Feb", "11", "13", "15", "12", "14", "16", "13", "15", "17", "14"],
+            ["Mar", "12", "14", "16", "13", "15", "17", "14", "16", "18", "15"],
+            ["Apr", "13", "15", "17", "14", "16", "18", "15", "17", "19", "16"],
+            ["May", "14", "16", "18", "15", "17", "19", "16", "18", "20", "17"],
+            ["Jun", "15", "17", "19", "16", "18", "20", "17", "19", "21", "18"],
+            ["Jul", "16", "18", "20", "17", "19", "21", "18", "20", "22", "19"],
+            ["Aug", "17", "19", "21", "18", "20", "22", "19", "21", "23", "20"],
+            ["Sep", "18", "20", "22", "19", "21", "23", "20", "22", "24", "21"],
+            ["Oct", "19", "21", "23", "20", "22", "24", "21", "23", "25", "22"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 21 – Monthly Revenue Detail",
+      "subtitle": "All 12 months",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Region", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          "rows": [
+            ["Americas", "78", "82", "85", "88", "90", "92", "94", "96", "98", "100", "102", "105"],
+            ["EMEA", "52", "54", "56", "58", "60", "62", "63", "65", "66", "68", "70", "72"],
+            ["APAC", "38", "40", "42", "44", "46", "48", "50", "52", "54", "56", "58", "60"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 22 – Customer Tier Breakdown",
+      "subtitle": "By segment",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Tier", "Count", "ARR (M)", "Avg Contract", "Support Level"],
+          "rows": [
+            ["Enterprise", "120", "84", "700K", "Dedicated"],
+            ["Mid-Market", "450", "96", "213K", "Named"],
+            ["SMB", "3200", "72", "22.5K", "Pooled"],
+            ["Starter", "8500", "24", "2.8K", "Self-serve"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 23 – Support Tickets",
+      "subtitle": "Volume by type",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Type", "Q1", "Q2", "Q3", "Q4", "Avg Resolution (hrs)"],
+          "rows": [
+            ["Technical", "1200", "1150", "1180", "1220", "4.2"],
+            ["Billing", "380", "360", "340", "320", "2.1"],
+            ["Feature Request", "290", "310", "330", "350", "—"],
+            ["Bug", "95", "88", "82", "78", "8.5"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 24 – Office Locations",
+      "subtitle": "Headcount by site",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["City", "Country", "Headcount", "Functions"],
+          "rows": [
+            ["San Francisco", "USA", "820", "Eng, Product, G&A"],
+            ["New York", "USA", "340", "Sales, Marketing"],
+            ["London", "UK", "280", "Sales, CS, Eng"],
+            ["Berlin", "Germany", "195", "Eng, Sales"],
+            ["Sydney", "Australia", "120", "Sales, CS"],
+            ["Tokyo", "Japan", "95", "Sales, Eng"],
+            ["Bangalore", "India", "220", "Eng, Product"],
+            ["Singapore", "Singapore", "75", "Sales, APAC HQ"]
+          ]
+        },
+        { "type": "image", "src": "https://picsum.photos/560/240", "alt": "Offices", "caption": "Global office footprint." }
+      ]
+    },
+    {
+      "title": "Section 25 – Quarterly Goals",
+      "subtitle": "Target vs actual",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Goal", "Q1 Target", "Q1 Actual", "Q2 Target", "Q2 Actual", "Q3 Target", "Q3 Actual", "Q4 Target", "Q4 Actual"],
+          "rows": [
+            ["Revenue (M)", "240", "245", "265", "268", "285", "291", "305", "312"],
+            ["New logos", "180", "175", "190", "192", "200", "198", "210", "215"],
+            ["NPS", "70", "70", "71", "71", "71", "72", "72", "72"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 26 – Partner Revenue",
+      "subtitle": "Channel contribution",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Partner Type", "Deals", "Revenue (M)", "Share %"],
+          "rows": [
+            ["Reseller", "420", "156", "14.0"],
+            ["Referral", "380", "89", "8.0"],
+            ["Marketplace", "1200", "112", "10.0"],
+            ["Direct", "—", "759", "68.0"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 27 – Security & Compliance",
+      "subtitle": "Certifications",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Certification", "Status", "Expiry", "Scope"],
+          "rows": [
+            ["SOC 2 Type II", "Active", "2025-06", "Global"],
+            ["ISO 27001", "Active", "2026-03", "Global"],
+            ["GDPR", "Compliant", "—", "EMEA"],
+            ["HIPAA", "Active", "2025-09", "US Healthcare"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 28 – Training & Enablement",
+      "subtitle": "Programs completed",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Program", "Participants", "Completion %", "Avg Score"],
+          "rows": [
+            ["Product Certification", "420", "94", "87%"],
+            ["Sales Playbook", "380", "98", "91%"],
+            ["Security Awareness", "4480", "99", "95%"],
+            ["Leadership", "120", "100", "—"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 29 – Additional Metrics",
+      "subtitle": "Miscellaneous",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["KPI", "Value", "Prior Year", "Target"],
+          "rows": [
+            ["Website visits (M)", "12.4", "10.2", "12.0"],
+            ["Trial signups", "18500", "16200", "18000"],
+            ["Trial-to-paid %", "22", "20", "21"],
+            ["Support CSAT", "4.2/5", "4.0/5", "4.0/5"]
+          ]
+        },
+        { "type": "graph", "id": "traffic", "title": "Web traffic and conversions" }
+      ]
+    },
+    {
+      "title": "Section 30 – Final Summary",
+      "subtitle": "Closing notes",
+      "blocks": [
+        { "type": "text", "text": "This report has covered regional performance, product metrics, sales pipeline, customer retention, marketing spend, operations, R&D, headcount, financials, and multiple appendices. For questions or data requests, contact the Strategy and Operations team." },
+        {
+          "type": "table",
+          "headers": ["Document", "Version", "Date"],
+          "rows": [
+            ["Master Report", "1.0", "2025-02-15"],
+            ["Data as of", "—", "2024-12-31"]
+          ]
+        }
+      ]
+    }
+  ]
+}

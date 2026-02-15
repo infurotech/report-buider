@@ -1,0 +1,8 @@
+{{#if config.logo}}
+<img class="logo" src="{{config.logo}}" alt="{{config.companyName}}" />
+{{/if}}
+<div class="title-block">
+  <h1 class="report-title">{{#if config.reportTitle}}{{config.reportTitle}}{{/if}}</h1>
+  {{#if config.reportSubtitle}}<p class="report-subtitle">{{config.reportSubtitle}}</p>{{/if}}
+  {{#if config.companyName}}{{#unless config.reportSubtitle}}<p class="report-subtitle">{{config.companyName}}</p>{{/unless}}{{/if}}
+</div>

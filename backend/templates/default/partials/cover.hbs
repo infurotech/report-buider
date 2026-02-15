@@ -1,0 +1,10 @@
+<div class="cover-page">
+  <div class="cover-inner">
+    {{#if config.logo}}<img class="cover-logo" src="{{config.logo}}" alt="{{config.companyName}}" />{{/if}}
+    {{#if content.coverImage}}<img class="cover-image" src="{{content.coverImage}}" alt="" />{{/if}}
+    <h1 class="cover-title">{{#if config.reportTitle}}{{config.reportTitle}}{{else}}Report{{/if}}</h1>
+    {{#if config.reportSubtitle}}<p class="cover-subtitle">{{config.reportSubtitle}}</p>{{/if}}
+    {{#if config.companyName}}<p class="cover-company">{{config.companyName}}</p>{{/if}}
+    {{#if content.coverText}}<div class="cover-text">{{content.coverText}}</div>{{/if}}
+  </div>
+</div>

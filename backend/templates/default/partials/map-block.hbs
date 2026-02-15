@@ -1,0 +1,25 @@
+{{#if config.googleMapsApiKey}}
+  {{#if center}}
+    <figure class="map-figure">
+      {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+      <img src="{{staticMapUrl key=config.googleMapsApiKey center=center zoom=zoom size=size markers=markers}}" alt="{{#if title}}{{title}}{{else}}Map{{/if}}" class="map-static-img" />
+    </figure>
+  {{else}}
+    {{#if markers}}
+      <figure class="map-figure">
+        {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+        <img src="{{staticMapUrl key=config.googleMapsApiKey center=center zoom=zoom size=size markers=markers}}" alt="{{#if title}}{{title}}{{else}}Map{{/if}}" class="map-static-img" />
+      </figure>
+    {{else}}
+      <div class="map-placeholder" data-map="{{id}}">
+        {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+        <p>[Map placeholder]</p>
+      </div>
+    {{/if}}
+  {{/if}}
+{{else}}
+  <div class="map-placeholder" data-map="{{id}}">
+    {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+    <p>[Map placeholder]</p>
+  </div>
+{{/if}}

@@ -1,0 +1,956 @@
+{
+  "coverImage": "https://picsum.photos/800/450",
+  "coverText": "Appraisal of the fee simple interest in the subject property: a 45,000 SF Class A office building located at 2400 Commerce Drive, Austin, Texas. Prepared in conformity with USPAP and the 2024-2025 edition of the Uniform Standards of Professional Appraisal Practice.",
+  "sections": [
+    {
+      "title": "Cover Letter",
+      "subtitle": "",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "February 15, 2025"
+        },
+        {
+          "type": "text",
+          "text": "Mr. James Chen, Senior Vice President\nMeridian Commercial Real Estate\n500 Congress Avenue, Suite 1200\nAustin, TX 78701"
+        },
+        {
+          "type": "text",
+          "text": "Re: Appraisal Report – 2400 Commerce Drive, Austin, Texas (Travis County)"
+        },
+        {
+          "type": "text",
+          "text": "Dear Mr. Chen:"
+        },
+        {
+          "type": "text",
+          "text": "Pursuant to your engagement dated January 10, 2025, we have completed an appraisal of the subject property for mortgage underwriting purposes. The subject is a three-story, Class A office building containing approximately 45,000 rentable square feet, situated on 2.8 acres in the Northwest Austin submarket."
+        },
+        {
+          "type": "text",
+          "text": "We have inspected the subject property, reviewed relevant market data, and analyzed the three traditional approaches to value. The Sales Comparison Approach was developed using twelve recent sales of similar office properties in the submarket. The Income Approach was developed using stabilized potential gross income, market-derived vacancy and expense assumptions, and a market-derived capitalization rate. The Discounted Cash Flow Analysis was prepared using a ten-year projection with a discount rate and terminal cap rate supported by market evidence."
+        },
+        {
+          "type": "text",
+          "text": "Our analysis utilized the Sales Comparison, Income, and Discounted Cash Flow approaches to value. The conclusion of market value is set forth in the Letter of Transmittal and is supported by the analyses and exhibits contained in this report. This appraisal was prepared in conformity with the Uniform Standards of Professional Appraisal Practice (USPAP) and is intended for use by Meridian CRE and the named lender only."
+        },
+        {
+          "type": "text",
+          "text": "Please contact the undersigned with any questions or requests for clarification."
+        },
+        {
+          "type": "text",
+          "text": "Respectfully submitted,\n\nValuation Partners, Inc.\nSarah Mitchell, MAI, AI-GRS\nManaging Director"
+        }
+      ]
+    },
+    {
+      "title": "Letter of Transmittal",
+      "subtitle": "Valuation Summary",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Property Address: 2400 Commerce Drive, Austin, Travis County, Texas 78758\nClient: Meridian Commercial Real Estate\nIntended Use: Mortgage financing\nEffective Date of Appraisal: February 1, 2025\nReport Date: February 15, 2025"
+        },
+        {
+          "type": "table",
+          "headers": ["Description", "Value"],
+          "rows": [
+            ["Property Type", "Class A Office"],
+            ["Land Area", "2.8 acres (122,136 SF)"],
+            ["Building GLA", "45,000 SF"],
+            ["Year Built / Renovation", "2018 / 2022 lobby renovation"],
+            ["Occupancy (as of effective date)", "92%"],
+            ["Conclusion of Market Value", "$12,750,000"],
+            ["Value per SF (building)", "$283 / SF"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The foregoing value conclusion represents the market value of the fee simple estate as if vacant and available for its highest and best use, and reflects the property's condition and market position as of the effective date. Limiting conditions, assumptions, and certifications are set forth in the addendum."
+        }
+      ]
+    },
+    {
+      "title": "Table of Contents",
+      "subtitle": "",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Section", "Page"],
+          "rows": [
+            ["Cover Letter", "1"],
+            ["Letter of Transmittal", "2"],
+            ["Table of Contents", "3"],
+            ["Executive Summary", "4"],
+            ["1. Property Description – Site", "6"],
+            ["1. Property Description – Improvements", "8"],
+            ["2. Zoning and Legal", "11"],
+            ["3. Highest and Best Use", "13"],
+            ["4. Regional Analysis", "15"],
+            ["5. Market Analysis", "19"],
+            ["6. Rent Roll and Lease Summary", "24"],
+            ["7. Sales Comparison Approach", "28"],
+            ["8. Cost Approach", "35"],
+            ["9. Income Approach", "39"],
+            ["10. Discounted Cash Flow Analysis", "45"],
+            ["11. Reconciliation and Conclusion", "50"],
+            ["Assumptions and Limiting Conditions", "52"],
+            ["Certification", "56"],
+            ["Exhibits", "57"],
+            ["Addendum – Comparable Sale Summaries", "62"],
+            ["Definitions and Abbreviations", "65"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Executive Summary",
+      "subtitle": "Valuation Overview",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "This report presents an appraisal of the fee simple interest in the subject property, a 45,000 SF Class A office building located at 2400 Commerce Drive in the Northwest Austin submarket of Austin, Texas. The appraisal was prepared for mortgage underwriting purposes at the request of Meridian Commercial Real Estate. The effective date of the appraisal is February 1, 2025."
+        },
+        {
+          "type": "text",
+          "text": "The subject was constructed in 2018 and underwent a lobby and common-area renovation in 2022. It is situated on a 2.8-acre site with surface parking for 180 vehicles. As of the effective date, the property was approximately 92% occupied with a diversified tenant roster and a weighted average remaining lease term of approximately 4.2 years. In-place rents are generally at or slightly below current market, supporting stable near-term income with modest mark-to-market opportunity upon rollover."
+        },
+        {
+          "type": "table",
+          "headers": ["Approach", "Indicated Value", "Value per SF", "Weight", "Rationale"],
+          "rows": [
+            ["Sales Comparison", "$12,735,000", "$283/SF", "35%", "Recent comps support $265–295/SF range"],
+            ["Income (Direct Cap)", "$12,955,000", "$288/SF", "40%", "Stabilized NOI at 8.50% cap"],
+            ["Discounted Cash Flow", "$14,300,000", "$318/SF", "25%", "10-year projection; 9% discount, 9.25% terminal cap"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "After reconciliation of the three approaches to value, the conclusion of market value as of the effective date is $12,750,000 (Twelve Million Seven Hundred Fifty Thousand Dollars). This conclusion gives primary weight to the Sales Comparison and Income approaches, with secondary weight to the DCF, and is intended for use by the client and the named lender in connection with the contemplated financing."
+        },
+        {
+          "type": "text",
+          "text": "Key risks and considerations include exposure to lease rollover in years 3–5, submarket competition from new supply, and interest-rate sensitivity. These are reflected in the cap rate and discount rate assumptions applied in the analysis. No unusual or extraordinary assumptions were required."
+        }
+      ]
+    },
+    {
+      "title": "1. Property Description – Site",
+      "subtitle": "Location and Site Characteristics",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The subject property is located at 2400 Commerce Drive in Austin, Travis County, Texas. The site is in the Northwest Austin office corridor, approximately 12 miles north of downtown Austin and 8 miles from Austin-Bergstrom International Airport. The location benefits from frontage on Commerce Drive with signalized access to US 183 and MoPac Expressway (Loop 1) within one mile."
+        },
+        {
+          "type": "table",
+          "headers": ["Site Attribute", "Description"],
+          "rows": [
+            ["Street Address", "2400 Commerce Drive, Austin, TX 78758"],
+            ["Legal Description", "Lot 4, Block A, Commerce Park Phase 2, Travis County, Texas"],
+            ["Parcel ID", "Travis County R# 0123456"],
+            ["Site Area", "2.8 acres (122,136 SF)"],
+            ["Shape", "Generally rectangular; buildable area adequate for current improvements"],
+            ["Topography", "Gently sloping; site has been graded; no significant floodplain"],
+            ["Access", "Dedicated curb cut on Commerce Drive; signal at intersection with Park Plaza Dr"],
+            ["Utilities", "City water and sewer; electric (Austin Energy); gas (Atmos); fiber available"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The subject is within the City of Austin extraterritorial jurisdiction and is served by Austin Independent School District. Adjacent uses include office, retail, and light industrial. The area has seen substantial development over the past decade, with strong demand for well-located office product. Traffic counts on Commerce Drive exceed 25,000 vehicles per day, providing strong visibility and accessibility."
+        },
+        {
+          "type": "map",
+          "id": "site-location",
+          "title": "Subject Site – Vicinity Map",
+          "center": "30.395,-97.725",
+          "zoom": 13,
+          "markers": [{ "lat": 30.395, "lng": -97.725, "label": "S", "color": "red" }]
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/700/360",
+          "alt": "Site aerial",
+          "caption": "Aerial view of subject site and surrounding area."
+        }
+      ]
+    },
+    {
+      "title": "1. Property Description – Improvements",
+      "subtitle": "Building and Parking",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The improvements consist of a three-story, steel-frame and masonry office building containing approximately 45,000 rentable square feet. The building was completed in 2018 and received a comprehensive lobby, elevator cab, and common-area renovation in 2022. Building systems are in good condition and are appropriate for Class A office use."
+        },
+        {
+          "type": "table",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Structure", "Steel frame; concrete slab on grade (first floor), composite deck (upper); exterior masonry and curtain wall"],
+            ["Roof", "Built-up membrane; 10-year warranty; HVAC units on rooftop"],
+            ["Floor Loads", "Office: 80 PSF live; lobby/mechanical: as required"],
+            ["Ceiling Height", "Floor-to-floor 13'-6\"; typical clear 9'-0\" to 9'-6\""],
+            ["HVAC", "Central VAV; 2 rooftop units per floor; tenant-controlled thermostats"],
+            ["Electrical", "480/277V; 2× 1,200-amp services; tenant panels per suite"],
+            ["Plumbing", "Core restrooms per floor; break room sinks per floor"],
+            ["Fire/Life Safety", "Full sprinkler; fire alarm; ADA-compliant egress"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Interior finishes include glass storefront at main entry, upgraded lobby with stone and millwork (2022), and standard office build-out in tenant areas. The building offers a 4:1 parking ratio with 180 surface spaces and designated accessible and visitor stalls. Landscaping and signage are consistent with Class A standards."
+        },
+        {
+          "type": "table",
+          "headers": ["Floor", "RSF", "Use", "Tenant / Status"],
+          "rows": [
+            ["First", "15,000", "Lobby, retail/office", "Multi-tenant"],
+            ["Second", "15,000", "Office", "Multi-tenant"],
+            ["Third", "15,000", "Office", "Multi-tenant"],
+            ["Total", "45,000", "—", "—"]
+          ]
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/680/340",
+          "alt": "Building exterior",
+          "caption": "Subject building – main elevation."
+        }
+      ]
+    },
+    {
+      "title": "2. Zoning and Legal",
+      "subtitle": "Land Use and Compliance",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The subject site is zoned LR (Limited Industrial / Office) under the City of Austin Land Development Code. Uses permitted by right include general office, research and development, and limited retail. The current use as a multi-tenant office building is a permitted use. No variances or special exceptions were relied upon for the existing improvements."
+        },
+        {
+          "type": "table",
+          "headers": ["Item", "Detail"],
+          "rows": [
+            ["Zoning District", "LR (Limited Industrial)"],
+            ["Permitted Uses", "Office, R&D, limited retail, supporting uses"],
+            ["Max FAR", "0.50 (subject at ~0.37)"],
+            ["Setbacks", "25 ft front; 15 ft side/rear (compliant)"],
+            ["Max Height", "60 ft (subject ~42 ft)"],
+            ["Parking Requirement", "4 spaces / 1,000 SF office (subject meets)"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Title review was not performed as part of this appraisal. The appraisal assumes marketable fee simple title subject to matters that would be disclosed by a title report. No environmental assessment was performed; the value conclusion assumes no material environmental impairment."
+        }
+      ]
+    },
+    {
+      "title": "3. Highest and Best Use",
+      "subtitle": "As Improved and As If Vacant",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Highest and best use is defined as the reasonably probable and legal use that is physically possible, appropriately supported, financially feasible, and that results in the highest value. The analysis is presented for the property as improved and as if vacant."
+        },
+        {
+          "type": "text",
+          "text": "As improved: The existing Class A office improvement is the highest and best use of the property. The improvement is well-suited to the site and submarket, is legally permissible and physically appropriate, and generates a positive return. Demolition and redevelopment would not be economically justified given current construction costs and market rents."
+        },
+        {
+          "type": "text",
+          "text": "As if vacant: The highest and best use of the land as if vacant is for development of office or mixed-use office product, consistent with zoning and surrounding uses. The site is adequate in size, configuration, and access to support the existing improvement or a similar use. Conclusion: the subject's highest and best use as improved is its current use as a multi-tenant Class A office building."
+        }
+      ]
+    },
+    {
+      "title": "4. Regional Analysis",
+      "subtitle": "Austin-Round Rock MSA",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The subject is located in the Austin-Round Rock-Georgetown Metropolitan Statistical Area (MSA). The MSA comprises five counties (Travis, Williamson, Hays, Bastrop, Caldwell) and is one of the fastest-growing metros in the nation, with a diverse economy anchored by technology, state government, healthcare, and education."
+        },
+        {
+          "type": "table",
+          "headers": ["Indicator", "2023", "2024E", "2025F", "Source"],
+          "rows": [
+            ["Population (000s)", "2,352", "2,398", "2,445", "Census / EDC"],
+            ["Employment (000s)", "1,248", "1,289", "1,328", "BLS"],
+            ["Unemployment %", "3.2", "3.0", "2.9", "BLS"],
+            ["Median Household Income ($)", "92,400", "95,100", "97,800", "Census"],
+            ["Office-Using Employment Growth %", "—", "4.1", "3.5", "BLS / EDC"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Major employers include the State of Texas, Dell Technologies, Apple, Tesla, Oracle, and the University of Texas at Austin. In-migration and corporate relocations have driven strong demand for office space despite recent hybrid-work adjustments."
+        },
+        {
+          "type": "table",
+          "headers": ["Sector", "Employment (000s)", "Share %", "5-Yr Growth"],
+          "rows": [
+            ["Government", "218", "17.0", "1.2%"],
+            ["Professional & Business Svc", "198", "15.4", "5.8%"],
+            ["Education & Health", "165", "12.9", "4.2%"],
+            ["Trade, Transport, Utilities", "142", "11.1", "3.1%"],
+            ["Leisure & Hospitality", "128", "10.0", "6.2%"],
+            ["Financial Activities", "78", "6.1", "3.5%"],
+            ["Other", "392", "26.5", "—"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The MSA has added over 400,000 residents in the past decade. Housing affordability pressures have increased but remain favorable relative to coastal tech markets. The regional transportation network continues to expand with toll and managed lanes, improving connectivity to the subject submarket."
+        },
+        {
+          "type": "map",
+          "id": "regional-map",
+          "title": "Subject Location – Austin MSA",
+          "center": "30.395,-97.725",
+          "zoom": 11,
+          "markers": [{ "lat": 30.395, "lng": -97.725, "label": "S", "color": "red" }]
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/700/350",
+          "alt": "Regional context map",
+          "caption": "Subject site and Northwest Austin submarket context."
+        }
+      ]
+    },
+    {
+      "title": "5. Market Analysis",
+      "subtitle": "Northwest Austin Office Submarket",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The Northwest Austin submarket includes the Domain, Arboretum, and surrounding corridors. It has benefited from new multifamily and retail development and improved access via SH 183 and MoPac. Class A asking rents have stabilized in the $38–42/SF full-service range with concessions of 3–6 months on 5-year terms."
+        },
+        {
+          "type": "table",
+          "headers": ["Metric", "Q4 2023", "Q4 2024", "Change"],
+          "rows": [
+            ["Total Inventory (SF)", "8,245,000", "8,520,000", "+3.3%"],
+            ["Vacancy Rate %", "14.2", "12.8", "-140 bps"],
+            ["Absorption (SF) – Quarterly", "125,000", "98,000", "—"],
+            ["Under Construction (SF)", "420,000", "275,000", "—"],
+            ["Asking Rent ($/SF FSG)", "$39.50", "$40.25", "+1.9%"],
+            ["Weighted Avg Concession (mos)", "5.0", "4.5", "—"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Competitive supply includes several buildings completed in the 2016–2020 period, with newer product in the Domain area commanding a rent premium. Tenant demand has been strongest for suites in the 3,000–15,000 SF range. Full-service gross lease structures remain typical, with some modified gross and NNN alternatives for larger users."
+        },
+        {
+          "type": "table",
+          "headers": ["Building", "Address", "GLA (SF)", "Yr Built", "Occupancy %", "Asking $/SF"],
+          "rows": [
+            ["Commerce Park 1", "2300 Commerce Dr", "42,000", "2016", "91", "$39.00"],
+            ["Commerce Park 3", "2500 Commerce Dr", "48,000", "2019", "88", "$41.50"],
+            ["Arboretum Plaza", "9600 Great Hills Trail", "120,000", "2017", "89", "$40.00"],
+            ["Research Creek", "12500 Research Blvd", "85,000", "2016", "87", "$38.50"],
+            ["Domain North", "11500 Alterra Pkwy", "65,000", "2020", "94", "$43.00"]
+          ]
+        },
+        {
+          "type": "graph",
+          "id": "market-vacancy",
+          "title": "Northwest Austin Class A Vacancy and Rent Trend",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["2020", "2021", "2022", "2023", "2024"],
+              "datasets": [
+                { "label": "Vacancy %", "data": [16, 15.2, 14.5, 14.2, 12.8], "backgroundColor": "primary" },
+                { "label": "Rent $/SF", "data": [37.5, 38.2, 38.8, 39.5, 40.25], "backgroundColor": "secondary" }
+              ]
+            },
+            "options": {
+              "plugins": { "legend": { "position": "top" } },
+              "scales": {
+                "x": { "grid": { "display": false } },
+                "y": { "beginAtZero": true }
+              },
+              "datasets": { "bar": { "barPercentage": 0.75, "categoryPercentage": 0.85 } }
+            }
+          },
+          "width": 680,
+          "height": 340
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/650/320",
+          "alt": "Market trend chart",
+          "caption": "Vacancy and rent trends, 2020–2024."
+        }
+      ]
+    },
+    {
+      "title": "6. Rent Roll and Lease Summary",
+      "subtitle": "In-Place Income as of Effective Date",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The following rent roll reflects all leases in place as of February 1, 2025. Total occupied space is 41,400 SF (92%). Vacant space consists of 3,600 SF on the second floor (Suite 210) and is marketed at $42/SF full-service. Lease expirations are staggered with no single year representing more than 28% of rentable area."
+        },
+        {
+          "type": "table",
+          "allowPageBreak": true,
+          "headers": ["Suite", "Tenant", "RSF", "Rent/SF", "Annual Rent", "Commencement", "Expiration", "Option"],
+          "rows": [
+            ["100", "Tech Solutions LLC", "4,200", "$44.00", "$184,800", "Mar 2022", "Feb 2027", "1×5"],
+            ["101", "Austin Legal Group", "2,800", "$42.50", "$119,000", "Jun 2022", "May 2027", "None"],
+            ["102", "Summit Financial Advisors", "1,950", "$43.00", "$83,850", "Sep 2022", "Aug 2027", "1×5"],
+            ["103", "HealthData Inc", "3,100", "$45.00", "$139,500", "Jan 2023", "Dec 2027", "1×5"],
+            ["104", "Venture Labs", "2,050", "$41.00", "$84,050", "Apr 2023", "Mar 2028", "1×5"],
+            ["105", "Regional Title Co", "1,500", "$40.00", "$60,000", "Jul 2023", "Jun 2028", "None"],
+            ["106", "Premier Insurance", "2,400", "$42.00", "$100,800", "Oct 2023", "Sep 2028", "1×5"],
+            ["107", "Design Studio Co", "1,200", "$43.50", "$52,200", "Feb 2024", "Jan 2029", "1×5"],
+            ["108", "LogiTech Partners", "2,600", "$44.00", "$114,400", "May 2024", "Apr 2029", "1×5"],
+            ["109", "Austin Dental Mgmt", "1,400", "$41.50", "$58,100", "Aug 2024", "Jul 2029", "None"],
+            ["110", "CloudNine Software", "3,800", "$46.00", "$174,800", "Nov 2024", "Oct 2029", "1×5"],
+            ["210", "Vacant", "3,600", "—", "—", "—", "—", "—"],
+            ["211", "State Farm – Smith", "2,200", "$40.50", "$89,100", "Jan 2022", "Dec 2026", "1×5"],
+            ["212", "Architecture Plus", "3,400", "$43.00", "$146,200", "Apr 2022", "Mar 2027", "1×5"],
+            ["213", "HR Solutions", "1,800", "$42.00", "$75,600", "Aug 2022", "Jul 2027", "None"],
+            ["214", "Green Energy Corp", "2,900", "$44.50", "$129,050", "Dec 2022", "Nov 2027", "1×5"],
+            ["215", "MedTech Analytics", "2,100", "$45.00", "$94,500", "Mar 2023", "Feb 2028", "1×5"],
+            ["216", "Capitol Consulting", "2,500", "$41.00", "$102,500", "Jun 2023", "May 2028", "1×5"],
+            ["217", "SecureNet LLC", "1,700", "$43.00", "$73,100", "Oct 2023", "Sep 2028", "1×5"],
+            ["218", "Peak Performance", "1,600", "$42.00", "$67,200", "Jan 2024", "Dec 2028", "None"],
+            ["219", "Austin Realtors Assoc", "2,300", "$40.00", "$92,000", "May 2024", "Apr 2029", "1×5"],
+            ["220", "DataViz Inc", "2,800", "$44.00", "$123,200", "Sep 2024", "Aug 2029", "1×5"],
+            ["301", "Nexus Capital", "4,500", "$46.00", "$207,000", "Feb 2022", "Jan 2027", "1×5"],
+            ["302", "Global Trade Advisors", "3,200", "$44.00", "$140,800", "Jun 2022", "May 2027", "1×5"],
+            ["303", "CareFirst Medical", "2,600", "$43.50", "$113,100", "Oct 2022", "Sep 2027", "None"],
+            ["304", "BuildRight Const", "2,100", "$41.00", "$86,100", "Feb 2023", "Jan 2028", "1×5"],
+            ["305", "EduTech Solutions", "3,000", "$45.00", "$135,000", "May 2023", "Apr 2028", "1×5"],
+            ["306", "Summit Marketing", "1,900", "$42.50", "$80,750", "Sep 2023", "Aug 2028", "1×5"],
+            ["307", "Precision Engineering", "2,400", "$43.00", "$103,200", "Dec 2023", "Nov 2028", "None"],
+            ["308", "First Response Ins", "1,800", "$42.00", "$75,600", "Apr 2024", "Mar 2029", "1×5"],
+            ["309", "Innovate Labs", "2,200", "$44.50", "$97,900", "Jul 2024", "Jun 2029", "1×5"],
+            ["310", "Pacific Imports", "1,500", "$41.00", "$61,500", "Nov 2024", "Oct 2029", "None"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Summary", "Value"],
+          "rows": [
+            ["Total RSF", "45,000"],
+            ["Occupied RSF", "41,400"],
+            ["Vacant RSF", "3,600"],
+            ["Occupancy %", "92.0%"],
+            ["In-Place Annual Rent", "$3,456,200"],
+            ["In-Place Rent/SF (occupied)", "$83.48"],
+            ["Wtd Avg Lease Term Remaining", "4.2 years"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The following lease expiration schedule summarizes lease roll by year. Lease renewal assumptions used in the DCF are based on current market rents and historical retention rates for the building. No single tenant represents more than 10% of in-place rent."
+        },
+        {
+          "type": "table",
+          "headers": ["Expiration Year", "Suites", "RSF", "% of RSF", "Annual Rent", "% of Rent"],
+          "rows": [
+            ["2025", "—", "0", "0%", "$0", "0%"],
+            ["2026", "211", "2,200", "4.9%", "$89,100", "2.6%"],
+            ["2027", "100, 101, 102, 212, 213, 301, 302", "18,250", "40.6%", "$771,350", "22.3%"],
+            ["2028", "103, 104, 215, 216, 304, 305, 306, 307", "16,650", "37.0%", "$706,600", "20.4%"],
+            ["2029", "105, 106, 217, 218, 308, 309, 220", "12,700", "28.2%", "$541,750", "15.7%"],
+            ["2030+", "107, 108, 109, 110, 214, 219, 303, 310", "22,500", "50.0%", "$972,500", "28.1%"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Sales Comparison Approach",
+      "subtitle": "Comparable Office Sales",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Twelve comparable sales of Class A and Class B+ office properties in the Northwest Austin and North Central submarkets were analyzed. Adjustments were applied for location, size, age/condition, occupancy, and transaction date. The adjusted unit prices support a value range of $265–300/SF for the subject."
+        },
+        {
+          "type": "table",
+          "allowPageBreak": true,
+          "headers": ["Comp", "Address", "Sale Date", "GLA (SF)", "Sale Price", "$/SF", "Occ %", "Yr Built"],
+          "rows": [
+            ["1", "1900 N. Mopac Blvd", "Nov 2024", "52,000", "$14,560,000", "$280", "88", "2019"],
+            ["2", "9600 Great Hills Trail", "Sep 2024", "38,500", "$10,780,000", "$280", "94", "2017"],
+            ["3", "12500 Research Blvd", "Jul 2024", "44,200", "$12,176,000", "$275", "91", "2016"],
+            ["4", "8701 N. Capital of Texas", "May 2024", "41,000", "$11,070,000", "$270", "89", "2018"],
+            ["5", "10900 Stonelake Blvd", "Mar 2024", "48,000", "$13,440,000", "$280", "90", "2017"],
+            ["6", "7300 N. FM 620", "Jan 2024", "35,000", "$9,800,000", "$280", "87", "2019"],
+            ["7", "11400 Burnet Rd", "Dec 2024", "40,000", "$11,200,000", "$280", "91", "2018"],
+            ["8", "9828 Great Hills Trail", "Oct 2024", "36,000", "$10,080,000", "$280", "89", "2017"],
+            ["9", "13801 N. Highway 183", "Aug 2024", "55,000", "$15,125,000", "$275", "86", "2016"],
+            ["10", "8920 Business Park Dr", "Jun 2024", "42,000", "$11,760,000", "$280", "92", "2019"],
+            ["11", "12345 Research Blvd", "Apr 2024", "48,500", "$13,332,000", "$275", "88", "2017"],
+            ["12", "7100 Parmer Lane", "Feb 2024", "32,000", "$8,960,000", "$280", "90", "2018"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Location adjustments reflect proximity to major highways and amenity nodes; the subject is well-positioned relative to comps 2 and 5. Size adjustments account for economies of scale; the subject's 45,000 SF is near the median of the comparable set. Age/condition adjustments reflect the subject's 2022 renovation. Occupancy adjustments normalize for lease-up status. Time adjustments reflect modest market appreciation over the analysis period."
+        },
+        {
+          "type": "table",
+          "headers": ["Adjustment", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+          "rows": [
+            ["Sale $/SF", "$280", "$280", "$275", "$270", "$280", "$280", "$280", "$280", "$275", "$280", "$275", "$280"],
+            ["Location", "-5", "0", "+5", "+5", "0", "+10", "+3", "0", "+8", "+2", "+5", "+8"],
+            ["Size", "+8", "-3", "+2", "0", "+5", "-5", "0", "-2", "+10", "+3", "+5", "-8"],
+            ["Age/Condition", "0", "+5", "+10", "0", "+5", "0", "0", "+5", "+10", "0", "+5", "0"],
+            ["Occupancy", "+3", "-2", "0", "+2", "0", "+5", "0", "+2", "+5", "-2", "+3", "0"],
+            ["Date", "0", "0", "+3", "+5", "+8", "+10", "-1", "+1", "+4", "+6", "+8", "+10"],
+            ["Adjusted $/SF", "$286", "$280", "$295", "$282", "$293", "$300", "$282", "$286", "$298", "$284", "$291", "$290"]
+          ]
+        },
+        {
+          "type": "graph",
+          "id": "sales-comp",
+          "title": "Comparable Sales – Price per SF (Adjusted)",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+              "datasets": [
+                { "label": "Adjusted $/SF", "data": [286, 280, 295, 282, 293, 300, 282, 286, 298, 284, 291, 290], "backgroundColor": "primary" }
+              ]
+            },
+            "options": {
+              "indexAxis": "y",
+              "plugins": { "legend": { "display": false } },
+              "scales": {
+                "x": { "beginAtZero": true, "max": 320, "grid": { "display": true } },
+                "y": { "grid": { "display": false } }
+              },
+              "datasets": { "bar": { "barPercentage": 0.8, "categoryPercentage": 0.9 } }
+            }
+          },
+          "width": 680,
+          "height": 340
+        },
+        {
+          "type": "text",
+          "text": "The mean and median adjusted unit prices are approximately $288/SF and $286/SF. Applying $283/SF to the subject's 45,000 SF yields an indicated value by the Sales Comparison Approach of $12,735,000, rounded."
+        }
+      ]
+    },
+    {
+      "title": "8. Cost Approach",
+      "subtitle": "Land and Improvement Value",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The Cost Approach provides an indication of value based on the estimated cost to reproduce or replace the improvements, less depreciation, plus land value. Land value was estimated by sales of comparable development sites in the submarket. Reproduction cost was estimated using Marshall & Swift and local contractor data; depreciation was applied for physical, functional, and external factors."
+        },
+        {
+          "type": "table",
+          "headers": ["Land Component", "Amount", "Basis"],
+          "rows": [
+            ["Land Value (per SF site)", "$18.00", "3 comparable land sales"],
+            ["Site Area (SF)", "122,136", "—"],
+            ["Indicated Land Value", "$2,198,448", "Rounded $2,200,000"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Improvement", "Cost/SF", "SF", "Total"],
+          "rows": [
+            ["Hard Costs – Shell", "$185", "45,000", "$8,325,000"],
+            ["Tenant Improvement Allowance", "$55", "45,000", "$2,475,000"],
+            ["Soft Costs (15%)", "—", "—", "$1,620,000"],
+            ["Subtotal – RCN", "—", "—", "$12,420,000"],
+            ["Less: Physical Depreciation (8%)", "—", "—", "-$994,000"],
+            ["Less: Functional (2%)", "—", "—", "-$248,000"],
+            ["Less: External (0%)", "—", "—", "$0"],
+            ["Depreciated Cost of Improvements", "—", "—", "$11,178,000"],
+            ["Plus: Land Value", "—", "—", "$2,200,000"],
+            ["Indicated Value – Cost Approach", "—", "—", "$13,378,000"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The Cost Approach is given limited weight in the reconciliation because it does not directly reflect income or recent sales and is more susceptible to estimation variance. It is supportive of the conclusion that replacement cost exceeds market value, consistent with a mature market where existing product trades at a discount to replacement."
+        }
+      ]
+    },
+    {
+      "title": "9. Income Approach",
+      "subtitle": "Direct Capitalization",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Stabilized potential gross income was estimated from the in-place rent roll and market rents for vacant space. Vacancy and credit loss was applied at 5%. Operating expenses and replacement reserves were derived from the subject's historical data and submarket norms. A market-derived cap rate was applied to stabilized NOI."
+        },
+        {
+          "type": "table",
+          "headers": ["Line Item", "Amount", "Notes"],
+          "rows": [
+            ["Potential Gross Income", "$1,856,250", "41,250 SF @ $45/SF avg"],
+            ["Less: Vacancy & Credit (5%)", "-$92,813", "—"],
+            ["Effective Gross Income", "$1,763,438", "—"],
+            ["Less: Operating Expenses", "-$617,203", "35% of EGI"],
+            ["Less: Replacement Reserve", "-$45,000", "$1/SF"],
+            ["Stabilized NOI", "$1,101,235", "—"],
+            ["Capitalization Rate", "8.50%", "Market-derived"],
+            ["Indicated Value (Rounded)", "$12,955,000", "—"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Operating expenses were built up from historical and market norms. The subject's actual expense ratio has averaged approximately 34–36% of EGI over the past three years. A 35% expense ratio is applied for stabilization, consistent with Class A suburban office in the submarket."
+        },
+        {
+          "type": "table",
+          "headers": ["Expense Category", "Annual $", "% EGI"],
+          "rows": [
+            ["Real Estate Taxes", "$198,000", "11.2%"],
+            ["Insurance", "$35,000", "2.0%"],
+            ["Utilities (elec, gas, water, waste)", "$158,000", "9.0%"],
+            ["Janitorial", "$95,000", "5.4%"],
+            ["Landscape & Grounds", "$28,000", "1.6%"],
+            ["Repairs & Maintenance", "$53,000", "3.0%"],
+            ["Security", "$18,000", "1.0%"],
+            ["Management (4%)", "$70,538", "4.0%"],
+            ["Administrative & Other", "$61,665", "3.5%"],
+            ["Total Operating Expenses", "$617,203", "35.0%"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Source", "Cap Rate", "Date / Notes"],
+          "rows": [
+            ["Recent NW Austin Class A sale (Comp 2)", "8.25%", "Sep 2024"],
+            ["Recent NW Austin Class A sale (Comp 5)", "8.50%", "Mar 2024"],
+            ["CoStar cap rate survey – Austin CBD", "8.75%", "Q4 2024"],
+            ["Selected cap rate", "8.50%", "—"]
+          ]
+        },
+        {
+          "type": "graph",
+          "id": "income-cap",
+          "title": "Stabilized NOI and Capitalization",
+          "chart": {
+            "type": "doughnut",
+            "data": {
+              "labels": ["Operating expenses", "Reserves", "Stabilized NOI"],
+              "datasets": [
+                { "data": [35, 2.5, 62.5], "backgroundColor": ["secondary", "primary", "primary"], "borderWidth": 2 }
+              ]
+            },
+            "options": {
+              "plugins": { "legend": { "position": "right" } },
+              "cutout": "55%"
+            }
+          },
+          "width": 680,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "title": "10. Discounted Cash Flow Analysis",
+      "subtitle": "10-Year Projection",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A 10-year DCF was prepared using in-place rents with step-ups and market assumptions for lease rollover. Revenue growth was assumed at 2.5% annually; expense growth at 2.0%. A 9.0% discount rate and 9.25% terminal cap rate were applied, consistent with market and risk profile. The discount rate reflects the property's lease roll profile, submarket risk, and cost of capital; the terminal cap rate reflects expected market conditions at the end of the holding period."
+        },
+        {
+          "type": "table",
+          "headers": ["Sensitivity", "Discount 8.5%", "Discount 9.0%", "Discount 9.5%"],
+          "rows": [
+            ["Terminal Cap 8.75%", "$14,850,000", "$14,550,000", "$14,260,000"],
+            ["Terminal Cap 9.25%", "$14,520,000", "$14,300,000", "$14,090,000"],
+            ["Terminal Cap 9.75%", "$14,200,000", "$14,060,000", "$13,930,000"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Year", "EGI", "OE", "Reserves", "NOI", "PV Factor @ 9%", "PV of NOI"],
+          "rows": [
+            ["1", "$1,763,438", "$617,203", "$45,000", "$1,101,235", "0.917", "$1,009,833"],
+            ["2", "$1,807,524", "$630,544", "$45,000", "$1,131,980", "0.842", "$953,328"],
+            ["3", "$1,852,712", "$644,155", "$45,000", "$1,163,557", "0.772", "$898,265"],
+            ["4", "$1,899,030", "$658,039", "$45,000", "$1,195,991", "0.708", "$846,764"],
+            ["5", "$1,946,506", "$672,200", "$45,000", "$1,229,306", "0.650", "$799,048"],
+            ["6", "$1,995,169", "$686,644", "$45,000", "$1,263,525", "0.596", "$753,060"],
+            ["7", "$2,045,048", "$701,375", "$45,000", "$1,298,673", "0.547", "$710,376"],
+            ["8", "$2,096,174", "$716,402", "$45,000", "$1,334,772", "0.502", "$670,056"],
+            ["9", "$2,148,578", "$731,730", "$45,000", "$1,371,848", "0.460", "$632,050"],
+            ["10", "$2,202,293", "$747,365", "$45,000", "$1,409,928", "0.422", "$594,989"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["DCF Component", "Value"],
+          "rows": [
+            ["PV of 10-Year NOI", "$7,667,769"],
+            ["Terminal NOI (Year 11)", "$1,449,676"],
+            ["Terminal Cap Rate", "9.25%"],
+            ["Reversion (Terminal Value)", "$15,672,173"],
+            ["PV of Reversion", "$6,617,892"],
+            ["Indicated Value by DCF", "$14,285,661"],
+            ["Rounded", "$14,300,000"]
+          ]
+        },
+        {
+          "type": "graph",
+          "id": "dcf-chart",
+          "title": "DCF – NOI and Reversion",
+          "chart": {
+            "type": "line",
+            "data": {
+              "labels": ["Y1", "Y2", "Y3", "Y4", "Y5", "Y6", "Y7", "Y8", "Y9", "Y10"],
+              "datasets": [
+                { "label": "NOI", "data": [1101235, 1131980, 1163557, 1195991, 1229306, 1263525, 1298673, 1334772, 1371848, 1409928], "borderColor": "primary", "backgroundColor": "primary", "fill": false, "tension": 0.2, "borderWidth": 2 }
+              ]
+            },
+            "options": {
+              "plugins": { "legend": { "position": "top" } },
+              "scales": {
+                "x": { "grid": { "display": false } },
+                "y": { "beginAtZero": true }
+              }
+            }
+          },
+          "width": 680,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "title": "11. Reconciliation and Conclusion",
+      "subtitle": "Final Value Opinion",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The Sales Comparison, Income, and DCF approaches were weighted as follows. Sales Comparison is accorded 35% weight given the volume of recent comparable sales and relevance to a potential sale. The Income approach is weighted 40% as the property is income-producing and cap rates are well-supported. DCF is weighted 25% to reflect the medium-term lease roll and reversion. The Cost Approach was considered but given no weight in the final conclusion."
+        },
+        {
+          "type": "table",
+          "headers": ["Approach", "Indicated Value", "Weight", "Weighted Value"],
+          "rows": [
+            ["Sales Comparison", "$12,735,000", "35%", "$4,457,250"],
+            ["Income (Direct Cap)", "$12,955,000", "40%", "$5,182,000"],
+            ["DCF", "$14,300,000", "25%", "$3,575,000"],
+            ["Total", "—", "100%", "$13,214,250"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "After consideration of the three approaches and the quality of the data, the conclusion of market value as of February 1, 2025, is rounded to $12,750,000 (Twelve Million Seven Hundred Fifty Thousand Dollars). This value represents the fee simple interest in the real property, as improved."
+        }
+      ]
+    },
+    {
+      "title": "Assumptions and Limiting Conditions",
+      "subtitle": "",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The following assumptions and limiting conditions apply to this appraisal and are part of the appraisal process. They do not diminish the scope of the work or the validity of the conclusion."
+        },
+        {
+          "type": "text",
+          "text": "1. Title: The appraiser has assumed that the title to the property is good and marketable. No title search was conducted. The value conclusion assumes no liens, encumbrances, or restrictions other than those that would be typical for this type of property and that do not materially affect value."
+        },
+        {
+          "type": "text",
+          "text": "2. Legal: The appraiser has assumed that the property is in compliance with all applicable laws, ordinances, and regulations. The appraiser is not an attorney and has not rendered a legal opinion. Zoning and land use were reviewed from available sources; no legal opinion is intended."
+        },
+        {
+          "type": "text",
+          "text": "3. Environmental: No Phase I or other environmental assessment was performed. The value conclusion assumes the absence of hazardous materials or conditions that would materially affect value. If such conditions exist, the conclusion may be invalid."
+        },
+        {
+          "type": "text",
+          "text": "4. Accuracy of Data: The appraiser has relied upon information furnished by the client, public records, and other sources believed to be reliable. No responsibility is assumed for the accuracy of such information. Rent roll and expense data were provided by the client and have not been independently verified by audit."
+        },
+        {
+          "type": "text",
+          "text": "5. Contingent and Limiting Conditions: The appraisal is subject to the following: completion of the appraisal in accordance with the scope of work; the intended use and user; the effective date; and that the appraiser has no present or prospective interest in the property. Distribution of the report to parties other than the client and intended user may require a new engagement and scope of work."
+        },
+        {
+          "type": "text",
+          "text": "6. Scope of Work: The scope of work for this assignment is sufficient to produce credible results. No hidden or unstated conditions were assumed. The appraiser has disclosed any significant assistance received in the development of the appraisal."
+        }
+      ]
+    },
+    {
+      "title": "Certification",
+      "subtitle": "",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "I certify that, to the best of my knowledge and belief: (1) the statements of fact contained in this report are true and correct; (2) the reported analyses, opinions, and conclusions are limited only by the reported assumptions and limiting conditions and are my personal, impartial, and unbiased professional analyses, opinions, and conclusions; (3) I have no present or prospective interest in the property that is the subject of this report and no personal interest with respect to the parties involved; (4) I have performed no services, as an appraiser or in any other capacity, regarding the property that is the subject of this report within the three-year period immediately preceding acceptance of this assignment; (5) my compensation is not contingent on the reporting of a predetermined value or direction in value; (6) my analyses, opinions, and conclusions were developed in conformity with USPAP; (7) I have made a personal inspection of the property that is the subject of this report; and (8) no one provided significant professional assistance to the person signing this certification."
+        },
+        {
+          "type": "text",
+          "text": "Sarah Mitchell, MAI, AI-GRS\nValuation Partners, Inc.\nTexas License No. 1234567890\nFebruary 15, 2025"
+        }
+      ]
+    },
+    {
+      "title": "Exhibits",
+      "subtitle": "Maps and Supporting Data",
+      "blocks": [
+        {
+          "type": "map",
+          "id": "subject-map",
+          "title": "Exhibit A – Subject Property Aerial and Parcel",
+          "center": "30.395,-97.725",
+          "zoom": 14,
+          "markers": [{ "lat": 30.395, "lng": -97.725, "label": "S", "color": "red" }]
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/700/380",
+          "alt": "Subject building",
+          "caption": "Subject property: 2400 Commerce Drive – main elevation."
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/700/320",
+          "alt": "Lobby",
+          "caption": "Exhibit B – Lobby and common area (2022 renovation)."
+        },
+        {
+          "type": "graph",
+          "id": "value-recon",
+          "title": "Exhibit C – Value Reconciliation by Approach",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["Sales Comp", "Income (Cap)", "DCF"],
+              "datasets": [
+                { "label": "Indicated Value ($M)", "data": [12.735, 12.955, 14.3], "backgroundColor": ["primary", "secondary", "primary"] }
+              ]
+            },
+            "options": {
+              "plugins": { "legend": { "display": false } },
+              "scales": {
+                "x": { "grid": { "display": false } },
+                "y": { "beginAtZero": true }
+              },
+              "datasets": { "bar": { "barPercentage": 0.6, "categoryPercentage": 0.8 } }
+            }
+          },
+          "width": 680,
+          "height": 340
+        },
+        {
+          "type": "map",
+          "id": "exhibit-comp-map",
+          "title": "Exhibit D – Comparable Sales Map",
+          "center": "30.395,-97.725",
+          "zoom": 11,
+          "markers": [
+            { "lat": 30.395, "lng": -97.725, "label": "S", "color": "red" },
+            { "lat": 30.41, "lng": -97.82, "label": "1", "color": "blue" },
+            { "lat": 30.40, "lng": -97.75, "label": "2", "color": "blue" },
+            { "lat": 30.45, "lng": -97.79, "label": "3", "color": "blue" },
+            { "lat": 30.38, "lng": -97.81, "label": "4", "color": "blue" },
+            { "lat": 30.42, "lng": -97.72, "label": "5", "color": "blue" },
+            { "lat": 30.44, "lng": -97.82, "label": "6", "color": "blue" }
+          ]
+        },
+        {
+          "type": "graph",
+          "id": "exhibit-rent-trend",
+          "title": "Exhibit E – Submarket Rent and Vacancy Trend",
+          "chart": {
+            "type": "line",
+            "data": {
+              "labels": ["2020", "2021", "2022", "2023", "2024"],
+              "datasets": [
+                { "label": "Vacancy %", "data": [16, 15.2, 14.5, 14.2, 12.8], "borderColor": "primary", "backgroundColor": "primary", "fill": false, "tension": 0.2, "borderWidth": 2 },
+                { "label": "Rent $/SF", "data": [37.5, 38.2, 38.8, 39.5, 40.25], "borderColor": "secondary", "backgroundColor": "secondary", "fill": false, "tension": 0.2, "borderWidth": 2 }
+              ]
+            },
+            "options": {
+              "plugins": { "legend": { "position": "top" } },
+              "scales": {
+                "x": { "grid": { "display": false } },
+                "y": { "beginAtZero": true }
+              }
+            }
+          },
+          "width": 680,
+          "height": 340
+        },
+        {
+          "type": "image",
+          "src": "https://picsum.photos/680/300",
+          "alt": "Parking and site",
+          "caption": "Exhibit F – Parking and site improvements."
+        }
+      ]
+    },
+    {
+      "title": "Addendum – Comparable Sale Summaries",
+      "subtitle": "Detailed Sale Descriptions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Comparable 1 – 1900 N. Mopac Blvd. Three-story Class A office, 52,000 SF, completed 2019. Located on Mopac frontage with excellent visibility. Sold November 2024 for $14,560,000 ($280/SF). 88% occupied at sale. Buyer was a private institutional account; seller was a regional developer. Transaction was all-cash; marketing period approximately 90 days."
+        },
+        {
+          "type": "text",
+          "text": "Comparable 2 – 9600 Great Hills Trail. Portion of larger campus; 38,500 SF building. Built 2017; common area renovation in 2021. Sold September 2024 for $10,780,000 ($280/SF). 94% occupied. Strong credit tenant mix. Located in Arboretum submarket with superior retail and amenity access. Used as primary comp for location and quality."
+        },
+        {
+          "type": "text",
+          "text": "Comparable 3 – 12500 Research Blvd. 44,200 SF, 2016 vintage. Sold July 2024 for $12,176,000 ($275/SF). 91% occupied. Slightly older than subject; positive adjustment applied. Research Boulevard corridor; good access to 183 and Domain. Sale included assumption of in-place financing by buyer."
+        },
+        {
+          "type": "text",
+          "text": "Comparable 4 – 8701 N. Capital of Texas Hwy. 41,000 SF, 2018. Sold May 2024 for $11,070,000 ($270/SF). 89% occupied. Capital of Texas (Loop 360) frontage; strong demographics. Seller motivated; slight time adjustment applied. Transaction verified through CoStar and party confirmation."
+        },
+        {
+          "type": "text",
+          "text": "Comparable 5 – 10900 Stonelake Blvd. 48,000 SF, 2017. Sold March 2024 for $13,440,000 ($280/SF). 90% occupied. Stonelake corridor; similar tenant profile to subject. Sale price at low end of ask; 60-day marketing. Used to support cap rate and $/SF conclusion."
+        }
+      ]
+    },
+    {
+      "title": "Definitions and Abbreviations",
+      "subtitle": "",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["Term", "Definition"],
+          "rows": [
+            ["GLA / RSF", "Gross leasable area / Rentable square feet"],
+            ["PGI", "Potential gross income"],
+            ["EGI", "Effective gross income"],
+            ["NOI", "Net operating income"],
+            ["Cap rate", "Capitalization rate – NOI divided by value or price"],
+            ["DCF", "Discounted cash flow"],
+            ["USPAP", "Uniform Standards of Professional Appraisal Practice"],
+            ["MAI", "Member, Appraisal Institute"],
+            ["FSG", "Full-service gross (lease type)"],
+            ["NNN", "Triple net (lease type)"],
+            ["H&B Use", "Highest and best use"],
+            ["RCN", "Replacement cost new"],
+            ["FAR", "Floor area ratio"],
+            ["MSA", "Metropolitan statistical area"],
+            ["BLS", "Bureau of Labor Statistics"],
+            ["EDC", "Economic development corporation"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Market value is defined as the most probable price that a property should bring in a competitive and open market under all conditions requisite to a fair sale, with the buyer and seller each acting prudently and knowledgeably, and assuming the price is not affected by undue stimulus."
+        }
+      ]
+    }
+  ]
+}

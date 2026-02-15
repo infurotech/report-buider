@@ -1,0 +1,20 @@
+{{#if src}}
+  <figure class="graph-figure">
+    {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+    <img src="{{src}}" alt="{{#if title}}{{title}}{{else}}Chart{{/if}}" class="graph-img" />
+    {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+  </figure>
+{{else}}
+  {{#if chart}}
+    <figure class="graph-figure">
+      {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+      <img src="{{chartImageUrl chart=chart width=width height=height config=config}}" alt="{{#if title}}{{title}}{{else}}Chart{{/if}}" class="graph-img" />
+      {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+    </figure>
+  {{else}}
+    <div class="graph-placeholder" data-graph="{{id}}">
+      {{#if title}}<p><strong>{{title}}</strong></p>{{/if}}
+      <p>[Graph placeholder]</p>
+    </div>
+  {{/if}}
+{{/if}}

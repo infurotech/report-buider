@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{#if config.reportTitle}}{{config.reportTitle}}{{else}}Report{{/if}}</title>
+  <style>
+    /* default template styles - self-contained per template */
+    {{#if options.paged}}
+    /* Paged.js: fixed content area via @page margin boxes */
+    .paged-header-running { position: running(reportHeader); }
+    .paged-header-running .logo { max-height: {{#if config.headerHeight}}{{config.headerHeight}}{{else}}18mm{{/if}}; max-width: 140px; object-fit: contain; vertical-align: middle; padding: 8px; }
+    @page {
+      size: {{#if config.pageSize}}{{config.pageSize}}{{else}}A4{{/if}};
+      margin-left: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}};
+      margin-right: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}};
+      margin-top: calc({{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}} + {{#if config.headerHeight}}{{config.headerHeight}}{{else}}18mm{{/if}});
+      margin-bottom: calc({{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}} + {{#if config.footerHeight}}{{config.footerHeight}}{{else}}12mm{{/if}});
+      @top-left { content: element(reportHeader); vertical-align: middle; text-align: left; }
+      @top-center { content: '{{#if config.reportTitle}}{{config.reportTitle}}{{else}}Report{{/if}}'; font-size: 0.9rem; font-weight: 600; color: {{#if config.primaryColor}}{{{config.primaryColor}}}{{else}}#2563eb{{/if}}; vertical-align: middle; text-align: center; }
+      @top-right { content: '{{#if config.reportSubtitle}}{{config.reportSubtitle}}{{/if}}{{#if config.companyName}}{{#if config.reportSubtitle}} | {{/if}}{{config.companyName}}{{/if}}'; font-size: 0.75rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; vertical-align: middle; text-align: right; }
+      @bottom-left { content: '{{{config.footer}}}'; font-size: 0.75rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; }
+      @bottom-right { content: counter(page) ' / ' counter(pages); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
+    }
+    @page :first {
+      @top-left { content: none; }
+      @top-center { content: none; }
+      @top-right { content: none; }
+      @bottom-left { content: none; }
+      @bottom-right { content: none; }
+    }
+    .pagedjs_page { position: relative; }
+    .paged-injected-footer { position: absolute; bottom: 0; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center; padding: 4px {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; font-size: 0.75rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; box-sizing: border-box; }
+    .paged-injected-footer .paged-page-num { font-variant-numeric: tabular-nums; }
+    {{else}}
+    @page { margin: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; size: {{#if config.pageSize}}{{config.pageSize}}{{else}}A4{{/if}}; }
+    @media print {
+      .report-header, .report-footer { position: fixed; left: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; right: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; box-sizing: border-box; }
+      .report-header { top: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; height: {{#if config.headerHeight}}{{config.headerHeight}}{{else}}18mm{{/if}}; }
+      .report-footer { bottom: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; height: {{#if config.footerHeight}}{{config.footerHeight}}{{else}}12mm{{/if}}; }
+      .report-body { padding-top: {{#if config.headerHeight}}{{config.headerHeight}}{{else}}18mm{{/if}}; padding-bottom: {{#if config.footerHeight}}{{config.footerHeight}}{{else}}12mm{{/if}}; }
+      .page-number::after { content: counter(page) " / " counter(pages); }
+    }
+    {{/if}}
+    body { font-family: {{#if config.fontFamily}}{{config.fontFamily}}{{else}}'Segoe UI', system-ui, sans-serif{{/if}}; margin: 0; color: #1a1a1a; font-size: {{#if config.fontSize}}{{config.fontSize}}{{else}}12pt{{/if}}; line-height: {{#if config.lineHeight}}{{config.lineHeight}}{{else}}1.55{{/if}}; }
+    .report-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 2px solid {{#if config.primaryColor}}{{{config.primaryColor}}}{{else}}#2563eb{{/if}}; padding: {{#if config.headerPadding}}{{config.headerPadding}}{{else}}12px 0{{/if}}; margin-bottom: 24px; display: flex; align-items: center; gap: 16px; }
+    .report-header .logo { max-height: {{#if config.headerHeight}}{{config.headerHeight}}{{else}}18mm{{/if}}; max-width: 200px; object-fit: contain; padding: 12px; }
+    .report-header .title-block { flex: 1; }
+    .report-header .report-title { margin: 0; font-size: 1.25rem; font-weight: 600; color: {{#if config.primaryColor}}{{{config.primaryColor}}}{{else}}#2563eb{{/if}}; }
+    .report-header .report-subtitle { margin: 4px 0 0; font-size: 0.8rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; }
+    .report-body { margin: 0 auto; padding: {{#if config.bodyPadding}}{{config.bodyPadding}}{{else}}0 16px{{/if}}; }
+    .report-footer { position: sticky; bottom: 0; z-index: 10; background: #fff; border-top: 1px solid {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#e2e8f0{{/if}}; padding: 10px 0; margin-top: 32px; font-size: 0.75rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; display: flex; justify-content: space-between; align-items: center; }
+    .report-footer .footer-text { }
+    .report-footer .page-number { font-variant-numeric: tabular-nums; }
+    .section { margin-bottom: 1.75rem; page-break-inside: avoid; }
+    .section-title { font-size: 1.25rem; font-weight: 600; margin: 0 0 6px; color: {{#if config.primaryColor}}{{{config.primaryColor}}}{{else}}#1e293b{{/if}}; border-bottom: 1px solid {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#e2e8f0{{/if}}; padding-bottom: 6px; }
+    .section-subtitle { font-size: 0.95rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; margin: 0 0 12px; }
+    .block { margin-bottom: 1rem; }
+    .section--cover-letter { font-size: 1.05em; }
+    .section--cover-letter .block p { white-space: pre-line; }
+    .section--cover-letter .block:first-child p { text-align: right; font-weight: 500; margin-bottom: 1.5rem; }
+    .section--cover-letter .block:nth-child(2) p { margin-bottom: 1.25rem; line-height: 1.5; }
+    .section--cover-letter .block:nth-child(3) p { margin-bottom: 1rem; font-weight: 600; }
+    .section--cover-letter .block:nth-child(4) p { margin-bottom: 1.25rem; }
+    .section--cover-letter .block:nth-child(n+5):not(:last-child) p { max-width: 42em; margin-bottom: 1rem; }
+    .section--cover-letter .block:last-child p { margin-top: 2rem; margin-bottom: 0; }
+    .section--transmittal .block:first-child p { white-space: pre-line; font-size: 1em; }
+    .block--multi-page { page-break-inside: auto; }
+    .block--multi-page table tr { break-inside: avoid; }
+    table { border-collapse: collapse; width: 100%; font-family: inherit; font-size: 1em; line-height: inherit; }
+    table thead { display: table-header-group; }
+    th, td { border: 1px solid #e2e8f0; padding: 10px 14px; text-align: left; }
+    th { background: #f1f5f9; font-weight: 600; color: #334155; }
+    tbody tr:nth-child(even) { background: #f8fafc; }
+    tbody tr:nth-child(odd) { background: #fff; }
+    p { margin: 0 0 0.85rem; }
+    figure { margin: 0 0 1rem; }
+    figure img { max-width: 100%; height: auto; }
+    .graph-figure .graph-img { max-width: 100%; height: auto; display: block; }
+    figcaption { font-size: 0.85rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; margin-top: 4px; }
+    .cover-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; page-break-after: always; box-sizing: border-box; padding: {{#if config.pageMargin}}{{config.pageMargin}}{{else}}24mm{{/if}}; }
+    .cover-inner { text-align: center; max-width: 100%; }
+    .cover-logo { max-height: 64px; max-width: 200px; object-fit: contain; margin-bottom: 1.5rem; padding: 12px; }
+    .cover-image { max-width: 100%; max-height: 40vh; object-fit: contain; margin-bottom: 1.5rem; border-radius: 4px; }
+    .cover-title { margin: 0 0 0.5rem; font-size: 1.9rem; font-weight: 600; color: {{#if config.primaryColor}}{{{config.primaryColor}}}{{else}}#2563eb{{/if}}; }
+    .cover-subtitle { margin: 0 0 0.25rem; font-size: 1.05rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; }
+    .cover-company { margin: 0 0 1rem; font-size: 0.95rem; color: {{#if config.secondaryColor}}{{{config.secondaryColor}}}{{else}}#64748b{{/if}}; }
+    .cover-text { margin-top: 1rem; font-size: 1rem; line-height: 1.55; text-align: left; max-width: 80%; margin-left: auto; margin-right: auto; }
+  </style>
+</head>
+<body{{#if options.paged}} data-footer="{{config.footer}}"{{/if}}>
+  {{#if options.paged}}
+  <div class="paged-header-running">
+    {{#if config.logo}}<img class="logo" src="{{config.logo}}" alt="{{config.companyName}}" />{{/if}}
+  </div>
+  {{/if}}
+  {{#unless options.bodyOnly}}
+  {{> cover config=config content=content}}
+  {{/unless}}
+  {{#unless options.coverOnly}}
+  {{#unless options.paged}}
+  <header class="report-header">
+    {{> header config=config}}
+  </header>
+  {{/unless}}
+
+  <main class="report-body{{#if options.paged}} paged-flow{{/if}}">
+    {{#if content.sections}}{{#each content.sections}}
+    <section class="section{{#if (eq title 'Cover Letter')}} section--cover-letter{{/if}}{{#if (eq title 'Letter of Transmittal')}} section--transmittal{{/if}}">
+      {{#if title}}<h2 class="section-title">{{title}}</h2>{{/if}}
+      {{#if subtitle}}<p class="section-subtitle">{{subtitle}}</p>{{/if}}
+      {{#if blocks}}{{#each blocks}}
+      <div class="block{{#if allowPageBreak}} block--multi-page{{/if}}">
+        {{#if (eq type 'text')}}{{> text-block this}}{{/if}}
+        {{#if (eq type 'table')}}{{> table-block this}}{{/if}}
+        {{#if (eq type 'image')}}{{> image-block this}}{{/if}}
+        {{#if (eq type 'graph')}}{{> graph-block this config=../../config}}{{/if}}
+        {{#if (eq type 'map')}}{{> map-block this config=../../config}}{{/if}}
+      </div>
+      {{/each}}{{/if}}
+    </section>
+    {{/each}}{{/if}}
+  </main>
+
+  {{#unless options.paged}}
+  <footer class="report-footer">
+    <span class="footer-text">{{config.footer}}</span>
+    <span class="page-number">Page </span>
+  </footer>
+  {{/unless}}
+  {{/unless}}
+</body>
+</html>

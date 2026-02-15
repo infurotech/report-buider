@@ -1,0 +1,326 @@
+{
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=400&fit=crop",
+  "coverText": "Annual financial performance summary for FY 2024. This report includes the income statement, balance sheet summary, cash flow, segment and regional breakdowns, key metrics, and supporting charts for board and stakeholder communications.",
+  "sections": [
+    {
+      "title": "Executive Summary",
+      "subtitle": "FY 2024 at a glance",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Revenue reached $1.116B with a 14.2% year-over-year increase. Net income was $259M (23.2% margin). All regions contributed to growth, with Americas and EMEA leading. Operating leverage improved as we scaled; R&D and S&M investments remained focused on platform and go-to-market expansion."
+        },
+        {
+          "type": "text",
+          "text": "Free cash flow was $198M, up 28% from the prior year. We ended the year with $412M in cash and equivalents and no draw on our revolving credit facility. The following sections provide detailed financials, segment performance, and key metrics."
+        },
+        {
+          "type": "table",
+          "headers": ["Metric", "Q1", "Q2", "Q3", "Q4", "Full Year"],
+          "rows": [
+            ["Revenue ($M)", "245", "268", "291", "312", "1,116"],
+            ["Gross margin %", "42.1", "43.0", "43.5", "44.2", "43.2"],
+            ["Operating expense ($M)", "98", "102", "105", "108", "413"],
+            ["Net income ($M)", "52", "61", "68", "78", "259"],
+            ["EPS (diluted)", "1.22", "1.43", "1.59", "1.83", "6.07"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Income Statement",
+      "subtitle": "Condensed P&L — FY 2024 vs FY 2023",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The consolidated income statement reflects strong top-line growth and improved operating margin. Cost of revenue increased at a slower rate than revenue, driving gross margin expansion. OpEx growth was controlled while we continued to invest in product and sales capacity."
+        },
+        {
+          "type": "table",
+          "headers": ["Line item", "FY 2024 ($M)", "FY 2023 ($M)", "Change %"],
+          "rows": [
+            ["Revenue", "1,116", "978", "+14.2"],
+            ["Cost of revenue", "633", "562", "+12.6"],
+            ["Gross profit", "483", "416", "+16.1"],
+            ["Sales & marketing", "198", "175", "+13.1"],
+            ["R&D", "142", "128", "+10.9"],
+            ["G&A", "73", "68", "+7.4"],
+            ["Operating income", "70", "45", "+55.6"],
+            ["Interest & other", "-8", "-6", "—"],
+            ["Pre-tax income", "62", "39", "+59.0"],
+            ["Tax", "15", "10", "—"],
+            ["Net income", "259", "198", "+30.8"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Revenue and Profitability Trend",
+      "subtitle": "Quarterly comparison",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quarterly revenue and net income both showed consistent growth through the year. Q4 benefited from seasonal strength and new enterprise deals. The chart below illustrates the progression."
+        },
+        {
+          "type": "graph",
+          "title": "Quarterly revenue and net income ($M)",
+          "caption": "FY 2024. Source: Finance.",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["Q1", "Q2", "Q3", "Q4"],
+              "datasets": [
+                {
+                  "label": "Revenue",
+                  "data": [245, 268, 291, 312],
+                  "backgroundColor": "primary",
+                  "borderColor": "primary",
+                  "borderWidth": 1
+                },
+                {
+                  "label": "Net income",
+                  "data": [52, 61, 68, 78],
+                  "backgroundColor": "secondary",
+                  "borderColor": "secondary",
+                  "borderWidth": 1
+                }
+              ]
+            },
+            "options": {
+              "scales": { "y": { "beginAtZero": true }, "x": { "grid": { "display": false } } },
+              "plugins": { "legend": { "position": "top" } }
+            }
+          },
+          "width": 640,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "title": "Segment Performance",
+      "subtitle": "Revenue and growth by business unit",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "We report three segments: Platform (subscription and usage), Professional Services (implementation and advisory), and Other (licenses and support). Platform remains the largest and fastest-growing segment, with Professional Services and Other providing stable contribution."
+        },
+        {
+          "type": "table",
+          "headers": ["Segment", "FY 2024 ($M)", "FY 2023 ($M)", "Growth %", "Share of revenue"],
+          "rows": [
+            ["Platform", "712", "598", "+19.1", "63.8%"],
+            ["Professional Services", "268", "252", "+6.3", "24.0%"],
+            ["Other", "136", "128", "+6.3", "12.2%"],
+            ["Total", "1,116", "978", "+14.2", "100%"]
+          ]
+        },
+        {
+          "type": "graph",
+          "title": "Revenue mix by segment (FY 2024)",
+          "caption": "Platform, Professional Services, Other.",
+          "chart": {
+            "type": "doughnut",
+            "data": {
+              "labels": ["Platform", "Professional Services", "Other"],
+              "datasets": [{
+                "data": [712, 268, 136],
+                "backgroundColor": ["primary", "secondary", "#94a3b8"],
+                "borderWidth": 1
+              }]
+            },
+            "options": {
+              "plugins": { "legend": { "position": "right" } }
+            }
+          },
+          "width": 380,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "title": "Regional Revenue",
+      "subtitle": "Geographic breakdown",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Americas and EMEA drove the majority of growth. APAC showed solid expansion with particular strength in Australia and Japan. All regions maintained or improved gross margin versus prior year."
+        },
+        {
+          "type": "table",
+          "headers": ["Region", "FY 2024 ($M)", "FY 2023 ($M)", "Growth %", "Headcount"],
+          "rows": [
+            ["Americas", "612", "538", "+13.8", "2,240"],
+            ["EMEA", "312", "268", "+16.4", "1,180"],
+            ["APAC", "192", "172", "+11.6", "1,060"],
+            ["Total", "1,116", "978", "+14.2", "4,480"]
+          ]
+        },
+        {
+          "type": "graph",
+          "title": "Regional revenue ($M) — FY 2024",
+          "caption": "Americas, EMEA, APAC.",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["Americas", "EMEA", "APAC"],
+              "datasets": [{
+                "label": "Revenue ($M)",
+                "data": [612, 312, 192],
+                "backgroundColor": "primary",
+                "borderColor": "primary",
+                "borderWidth": 1
+              }]
+            },
+            "options": {
+              "indexAxis": "y",
+              "scales": { "x": { "beginAtZero": true }, "y": { "grid": { "display": false } } },
+              "plugins": { "legend": { "display": false } }
+            }
+          },
+          "width": 560,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "title": "Operating Expense Breakdown",
+      "subtitle": "OpEx by category",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sales & marketing represents the largest OpEx category, aligned with our investment in enterprise sales and demand generation. R&D spend increased modestly with a focus on platform reliability and new modules. G&A remained stable as we scaled."
+        },
+        {
+          "type": "table",
+          "headers": ["Category", "FY 2024 ($M)", "FY 2023 ($M)", "% of revenue"],
+          "rows": [
+            ["Sales & marketing", "198", "175", "17.7%"],
+            ["R&D", "142", "128", "12.7%"],
+            ["G&A", "73", "68", "6.5%"],
+            ["Total OpEx", "413", "371", "37.0%"]
+          ]
+        },
+        {
+          "type": "graph",
+          "title": "OpEx by category ($M)",
+          "caption": "S&M, R&D, G&A.",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["S&M", "R&D", "G&A"],
+              "datasets": [{
+                "label": "OpEx ($M)",
+                "data": [198, 142, 73],
+                "backgroundColor": ["primary", "secondary", "#94a3b8"],
+                "borderWidth": 1
+              }]
+            },
+            "options": {
+              "scales": { "y": { "beginAtZero": true }, "x": { "grid": { "display": false } } },
+              "plugins": { "legend": { "display": false } }
+            }
+          },
+          "width": 480,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "title": "Balance Sheet Summary",
+      "subtitle": "Key positions as of year-end",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "We maintained a strong balance sheet with ample liquidity. Cash and equivalents increased from $318M to $412M. We have no long-term debt other than a minimal finance-lease obligation. Working capital improved driven by receivables collection and disciplined payables."
+        },
+        {
+          "type": "table",
+          "headers": ["Item", "FY 2024 ($M)", "FY 2023 ($M)"],
+          "rows": [
+            ["Cash and equivalents", "412", "318"],
+            ["Short-term investments", "85", "92"],
+            ["Accounts receivable", "186", "162"],
+            ["Deferred revenue (current)", "224", "198"],
+            ["Total current assets", "728", "612"],
+            ["Property and equipment, net", "98", "88"],
+            ["Goodwill and intangibles", "42", "42"],
+            ["Total assets", "892", "768"],
+            ["Accounts payable and accrued", "112", "98"],
+            ["Deferred revenue (long-term)", "156", "142"],
+            ["Total liabilities", "298", "268"],
+            ["Stockholders' equity", "594", "500"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cash Flow",
+      "subtitle": "Condensed cash flow statement",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Operating cash flow of $228M reflected strong net income and careful management of working capital. Capital expenditures were $42M, primarily for infrastructure and office fit-outs. Free cash flow (operating cash flow less CapEx) was $198M."
+        },
+        {
+          "type": "table",
+          "headers": ["Category", "FY 2024 ($M)", "FY 2023 ($M)"],
+          "rows": [
+            ["Net income", "259", "198"],
+            ["D&A and other non-cash", "38", "32"],
+            ["Change in working capital", "-24", "-18"],
+            ["Cash from operations", "228", "178"],
+            ["CapEx", "-42", "-38"],
+            ["Free cash flow", "198", "154"],
+            ["Investing (net)", "-12", "-8"],
+            ["Financing (net)", "-22", "-15"],
+            ["Net change in cash", "94", "58"]
+          ]
+        },
+        {
+          "type": "graph",
+          "title": "Operating cash flow vs free cash flow ($M)",
+          "caption": "FY 2023 vs FY 2024.",
+          "chart": {
+            "type": "bar",
+            "data": {
+              "labels": ["FY 2023", "FY 2024"],
+              "datasets": [
+                { "label": "Operating cash flow", "data": [178, 228], "backgroundColor": "primary", "borderWidth": 1 },
+                { "label": "Free cash flow", "data": [154, 198], "backgroundColor": "secondary", "borderWidth": 1 }
+              ]
+            },
+            "options": {
+              "scales": { "y": { "beginAtZero": true }, "x": { "grid": { "display": false } } },
+              "plugins": { "legend": { "position": "top" } }
+            }
+          },
+          "width": 480,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "title": "Key Metrics and Ratios",
+      "subtitle": "Profitability and efficiency",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Gross margin expanded by 110 bps to 43.2%. Operating margin improved to 6.3% from 4.6%. We track revenue per employee and customer count as leading indicators; both improved year over year."
+        },
+        {
+          "type": "table",
+          "headers": ["Metric", "FY 2024", "FY 2023", "Target (FY 2025)"],
+          "rows": [
+            ["Gross margin", "43.2%", "42.1%", "44%+"],
+            ["Operating margin", "6.3%", "4.6%", "8%+"],
+            ["Net margin", "23.2%", "20.2%", "24%+"],
+            ["Revenue per employee ($K)", "249", "235", "260"],
+            ["Enterprise customers", "1,842", "1,612", "2,000+"],
+            ["Net revenue retention", "118%", "115%", "115%+"]
+          ]
+        }
+      ]
+    }
+  ]
+}
