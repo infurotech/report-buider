@@ -1,6 +1,11 @@
-# RB — Report Builder
+# Report Builder — PDF & HTML report generation service
 
-A report generation service that renders HTML or PDF reports from JSON data using Handlebars templates. It consists of a **NestJS backend API** and an optional **React + Vite viewer** for previewing reports in the browser.
+**Report generation service** to create **PDF reports** and HTML reports from JSON. Send your data via API; get back styled documents with **text**, **tables**, **images**, **charts** (bar, line, pie, doughnut), and **maps**. Supports cover pages, multi-page tables, and custom Handlebars templates. Built with NestJS; output is HTML or PDF (Puppeteer). Optional React viewer for preview.
+
+- **PDF report generation** — JSON in, PDF or HTML out  
+- **Content types:** text, tables, images, graphs/charts, static maps  
+- **Templates:** Handlebars; add your own layouts and partials  
+- **API:** `POST /reports/generate?format=pdf|html` with template name and content
 
 ## Example output
 
@@ -198,3 +203,7 @@ npm run start:prod
 ```
 
 Output is in `backend/dist/`; production run uses `node dist/main`.
+
+## Contact
+
+For help or questions, contact **support@infurotech.com**.
